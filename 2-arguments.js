@@ -1,14 +1,18 @@
 const argumentsPassed = ['a', 'b', 8];
-const argumentLength = argumentsPassed.length
+arguments(argumentsPassed)
 
-if(argumentLength === 0){
+function arguments (argumentsPassed){
+if(argumentsPassed.length  === 0){
      console.log("No argument");
-} else if (argumentLength === 1){
+} else if (argumentsPassed.length === 1){
     console.log("Argument found")
 
 } else {
     console.log("Arguments found")
 }
+}
+
+
 
 // switch(argumentLength){
 //     case 0:
