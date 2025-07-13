@@ -5,7 +5,7 @@ let i = 0
 if(!toNumber){
     console.log("Missing number of occurrences");   
 } else {
-    while(i<toNumber){
+    while (i<toNumber){
         console.log("C is fun");
         i++;
     }
